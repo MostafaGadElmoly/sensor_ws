@@ -1,0 +1,52 @@
+running develop
+/home/mostafa/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+Removing /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor-read.egg-link (link to .)
+running egg_info
+writing ../../build/sensor_read/sensor_read.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_read/sensor_read.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_read/sensor_read.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_read/sensor_read.egg-info/requires.txt
+writing top-level names to ../../build/sensor_read/sensor_read.egg-info/top_level.txt
+reading manifest file '../../build/sensor_read/sensor_read.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_read/sensor_read.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor_read/publish_data.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+copying sensor_read/__init__.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+copying sensor_read/could_points.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+copying sensor_read/multi_pub.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+running install
+running install_lib
+creating /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read
+copying /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read/publish_data.py -> /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read
+copying /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read/__init__.py -> /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read
+copying /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read/open3d_test.py -> /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read
+copying /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read/could_points.py -> /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read
+copying /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read/multi_pub.py -> /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read
+byte-compiling /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read/publish_data.py to publish_data.cpython-310.pyc
+byte-compiling /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read/open3d_test.py to open3d_test.cpython-310.pyc
+byte-compiling /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read/could_points.py to could_points.cpython-310.pyc
+byte-compiling /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read/multi_pub.py to multi_pub.cpython-310.pyc
+running install_data
+copying resource/sensor_read -> /home/mostafa/ros2/sensor_ws/install/sensor_read/share/ament_index/resource_index/packages
+copying package.xml -> /home/mostafa/ros2/sensor_ws/install/sensor_read/share/sensor_read
+running install_egg_info
+Copying ../../build/sensor_read/sensor_read.egg-info to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read-0.0.0-py3.10.egg-info
+running install_scripts
+Installing could_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+Installing multi_pub script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+Installing publish_data script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+writing list of installed files to '/home/mostafa/ros2/sensor_ws/build/sensor_read/install.log'

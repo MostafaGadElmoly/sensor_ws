@@ -1,0 +1,28 @@
+{
+    "C_Cpp.default.compilerPath": "/usr/bin/clang-14",
+    "python.autoComplete.extraPaths": [
+        "/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages",
+        "/home/mostafa/ros2/robot_ws/build/vl53l7cx_sensor",
+        "/home/mostafa/ros2/robot_ws/install/vl53l7cx_sensor/lib/python3.10/site-packages",
+        "/home/mostafa/ros2/robot_ws/build/my-test-package",
+        "/home/mostafa/ros2/robot_ws/install/my-test-package/lib/python3.10/site-packages",
+        "/home/mostafa/ros2/robot_ws/build/distance_sensor_pkg",
+        "/home/mostafa/ros2/robot_ws/install/distance_sensor_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages",
+        "/home/mostafa/ros2/robot_ws/build/vl53l7cx_sensor",
+        "/home/mostafa/ros2/robot_ws/install/vl53l7cx_sensor/lib/python3.10/site-packages",
+        "/home/mostafa/ros2/robot_ws/build/my-test-package",
+        "/home/mostafa/ros2/robot_ws/install/my-test-package/lib/python3.10/site-packages",
+        "/home/mostafa/ros2/robot_ws/build/distance_sensor_pkg",
+        "/home/mostafa/ros2/robot_ws/install/distance_sensor_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.associations": {
+        "Uno.C": "cpp"
+    }
+}

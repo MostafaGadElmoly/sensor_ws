@@ -1,0 +1,7 @@
+[console_scripts]
+FilterKal = sensor_read.FilterKal:main
+could_points = sensor_read.could_points:main
+filtered_points = sensor_read.filtered_points:main
+multi_points = sensor_read.multi_points:main
+multi_pub = sensor_read.multi_pub:main
+publish_data = sensor_read.publish_data:main

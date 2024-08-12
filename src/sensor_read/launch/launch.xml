@@ -1,0 +1,16 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='sensor_read',
+            executable='publish_data',
+            name='serial_reader'
+        ),
+        Node(
+            package='sensor_read',
+            executable='could_points',
+            name='depth_to_point_cloud'
+        ),
+    ])

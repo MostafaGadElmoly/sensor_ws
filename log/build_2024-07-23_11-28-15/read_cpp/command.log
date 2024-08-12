@@ -1,0 +1,2 @@
+Invoking command in '/home/mostafa/ros2/sensor_ws/build/read_cpp': /usr/bin/cmake --build /home/mostafa/ros2/sensor_ws/build/read_cpp -- -j12 -l12
+Invoked command in '/home/mostafa/ros2/sensor_ws/build/read_cpp' returned '2': /usr/bin/cmake --build /home/mostafa/ros2/sensor_ws/build/read_cpp -- -j12 -l12

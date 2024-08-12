@@ -1,0 +1,33 @@
+running develop
+/home/mostafa/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing sensor_read.egg-info/PKG-INFO
+writing dependency_links to sensor_read.egg-info/dependency_links.txt
+writing entry points to sensor_read.egg-info/entry_points.txt
+writing requirements to sensor_read.egg-info/requires.txt
+writing top-level names to sensor_read.egg-info/top_level.txt
+reading manifest file 'sensor_read.egg-info/SOURCES.txt'
+writing manifest file 'sensor_read.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor-read.egg-link (link to .)
+Installing could_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+Installing multi_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+Installing multi_pub script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+Installing publish_data script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+
+Installed /home/mostafa/ros2/sensor_ws/build/sensor_read
+running symlink_data
+symbolically linking /home/mostafa/ros2/sensor_ws/build/sensor_read/resource/sensor_read -> /home/mostafa/ros2/sensor_ws/install/sensor_read/share/ament_index/resource_index/packages
+symbolically linking /home/mostafa/ros2/sensor_ws/build/sensor_read/package.xml -> /home/mostafa/ros2/sensor_ws/install/sensor_read/share/sensor_read

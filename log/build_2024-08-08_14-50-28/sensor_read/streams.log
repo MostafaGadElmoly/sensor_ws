@@ -1,0 +1,34 @@
+[0.870s] Invoking command in '/home/mostafa/ros2/sensor_ws/src/sensor_read': PYTHONPATH=/home/mostafa/ros2/sensor_ws/build/sensor_read/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sensor_read build --build-base /home/mostafa/ros2/sensor_ws/build/sensor_read/build install --record /home/mostafa/ros2/sensor_ws/build/sensor_read/install.log --single-version-externally-managed install_data
+[1.142s] running egg_info
+[1.160s] writing ../../build/sensor_read/sensor_read.egg-info/PKG-INFO
+[1.160s] writing dependency_links to ../../build/sensor_read/sensor_read.egg-info/dependency_links.txt
+[1.161s] writing entry points to ../../build/sensor_read/sensor_read.egg-info/entry_points.txt
+[1.161s] writing requirements to ../../build/sensor_read/sensor_read.egg-info/requires.txt
+[1.161s] writing top-level names to ../../build/sensor_read/sensor_read.egg-info/top_level.txt
+[1.200s] reading manifest file '../../build/sensor_read/sensor_read.egg-info/SOURCES.txt'
+[1.201s] writing manifest file '../../build/sensor_read/sensor_read.egg-info/SOURCES.txt'
+[1.201s] running build
+[1.201s] running build_py
+[1.201s] copying sensor_read/filtered_points.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+[1.201s] copying sensor_read/publish_data.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+[1.202s] copying sensor_read/__init__.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+[1.202s] copying sensor_read/FilterKal.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+[1.202s] copying sensor_read/could_points.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+[1.202s] copying sensor_read/multi_points.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+[1.202s] copying sensor_read/multi_pub.py -> /home/mostafa/ros2/sensor_ws/build/sensor_read/build/lib/sensor_read
+[1.202s] running install
+[1.207s] running install_lib
+[1.226s] running install_data
+[1.227s] copying resource/sensor_read -> /home/mostafa/ros2/sensor_ws/install/sensor_read/share/ament_index/resource_index/packages
+[1.227s] copying package.xml -> /home/mostafa/ros2/sensor_ws/install/sensor_read/share/sensor_read
+[1.227s] running install_egg_info
+[1.247s] removing '/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read-0.0.0-py3.10.egg-info' (and everything under it)
+[1.247s] Copying ../../build/sensor_read/sensor_read.egg-info to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor_read-0.0.0-py3.10.egg-info
+[1.248s] running install_scripts
+[1.407s] Installing FilterKal script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.407s] Installing could_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.407s] Installing multi_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.407s] Installing multi_pub script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.407s] Installing publish_data script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.408s] writing list of installed files to '/home/mostafa/ros2/sensor_ws/build/sensor_read/install.log'
+[1.428s] Invoked command in '/home/mostafa/ros2/sensor_ws/src/sensor_read' returned '0': PYTHONPATH=/home/mostafa/ros2/sensor_ws/build/sensor_read/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sensor_read build --build-base /home/mostafa/ros2/sensor_ws/build/sensor_read/build install --record /home/mostafa/ros2/sensor_ws/build/sensor_read/install.log --single-version-externally-managed install_data

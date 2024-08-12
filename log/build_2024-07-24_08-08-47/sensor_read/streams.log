@@ -1,0 +1,35 @@
+[0.903s] Invoking command in '/home/mostafa/ros2/sensor_ws/build/sensor_read': PYTHONPATH=/home/mostafa/ros2/sensor_ws/build/sensor_read/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mostafa/ros2/sensor_ws/build/sensor_read/build --no-deps symlink_data --force
+[1.268s] running develop
+[1.268s] /home/mostafa/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.268s] !!
+[1.268s] 
+[1.268s]         ********************************************************************************
+[1.268s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.268s]         Instead, use pypa/build, pypa/installer or other
+[1.268s]         standards-based tools.
+[1.268s] 
+[1.268s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.268s]         ********************************************************************************
+[1.269s] 
+[1.269s] !!
+[1.269s]   easy_install.initialize_options(self)
+[1.551s] running egg_info
+[1.571s] writing sensor_read.egg-info/PKG-INFO
+[1.571s] writing dependency_links to sensor_read.egg-info/dependency_links.txt
+[1.571s] writing entry points to sensor_read.egg-info/entry_points.txt
+[1.572s] writing requirements to sensor_read.egg-info/requires.txt
+[1.572s] writing top-level names to sensor_read.egg-info/top_level.txt
+[1.615s] reading manifest file 'sensor_read.egg-info/SOURCES.txt'
+[1.615s] writing manifest file 'sensor_read.egg-info/SOURCES.txt'
+[1.680s] running build_ext
+[1.681s] Creating /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor-read.egg-link (link to .)
+[1.681s] Installing could_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.682s] Installing multi_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.682s] Installing multi_pub script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.682s] Installing publish_data script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read
+[1.682s] 
+[1.682s] Installed /home/mostafa/ros2/sensor_ws/build/sensor_read
+[1.682s] running symlink_data
+[1.683s] symbolically linking /home/mostafa/ros2/sensor_ws/build/sensor_read/resource/sensor_read -> /home/mostafa/ros2/sensor_ws/install/sensor_read/share/ament_index/resource_index/packages
+[1.683s] symbolically linking /home/mostafa/ros2/sensor_ws/build/sensor_read/package.xml -> /home/mostafa/ros2/sensor_ws/install/sensor_read/share/sensor_read
+[1.717s] Invoked command in '/home/mostafa/ros2/sensor_ws/build/sensor_read' returned '0': PYTHONPATH=/home/mostafa/ros2/sensor_ws/build/sensor_read/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mostafa/ros2/sensor_ws/build/sensor_read/build --no-deps symlink_data --force

@@ -1,0 +1,4 @@
+source;share/read_cpp/local_setup.bash
+source;share/read_cpp/local_setup.dsv
+source;share/read_cpp/local_setup.sh
+source;share/read_cpp/local_setup.zsh

@@ -1,0 +1,15 @@
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/ament_index/resource_index/package_run_dependencies/read_cpp
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/ament_index/resource_index/parent_prefix_path/read_cpp
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/environment/ament_prefix_path.sh
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/environment/ament_prefix_path.dsv
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/environment/path.sh
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/environment/path.dsv
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/local_setup.bash
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/local_setup.sh
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/local_setup.zsh
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/local_setup.dsv
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/package.dsv
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/ament_index/resource_index/packages/read_cpp
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/cmake/read_cppConfig.cmake
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/cmake/read_cppConfig-version.cmake
+/home/mostafa/ros2/sensor_ws/install/read_cpp/share/read_cpp/package.xml

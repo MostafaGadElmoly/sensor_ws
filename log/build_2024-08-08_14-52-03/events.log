@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (sensor_read) JobQueued: {'identifier': 'sensor_read', 'dependencies': OrderedDict()}
+[0.000315] (sensor_read) JobStarted: {'identifier': 'sensor_read'}
+[0.099132] (-) TimerEvent: {}
+[0.199369] (-) TimerEvent: {}
+[0.299608] (-) TimerEvent: {}
+[0.399849] (-) TimerEvent: {}
+[0.500111] (-) TimerEvent: {}
+[0.600409] (-) TimerEvent: {}
+[0.700647] (-) TimerEvent: {}
+[0.800884] (-) TimerEvent: {}
+[0.860714] (sensor_read) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mostafa/ros2/sensor_ws/build/sensor_read/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mostafa/ros2/sensor_ws/build/sensor_read', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'mostafa', 'LC_TIME': 'hu_HU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/mostafa', 'OLDPWD': '/home/mostafa', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hu_HU.UTF-8', 'MANAGERPID': '1268', 'SYSTEMD_EXEC_PID': '1424', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '16659', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mostafa/ros2/sensor_ws/install:/home/mostafa/ros2/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mostafa', 'JOURNAL_STREAM': '8:31942', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mostafa', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/mostafa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Mostafa:@/tmp/.ICE-unix/1402,unix/Mostafa:/tmp/.ICE-unix/1402', 'INVOCATION_ID': 'ab11ddb32a974a598ec34258cfb3f0b9', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hu_HU.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'hu_HU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DYDHS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mostafa/ros2/sensor_ws/install/sensor_read:/home/mostafa/ros2/sensor_ws/install/read_cpp:/home/mostafa/ros2/robot_ws/install/vl53l7cx_sensor:/home/mostafa/ros2/robot_ws/install/my_robot_bringup:/home/mostafa/ros2/robot_ws/install/my_robot_description:/home/mostafa/ros2/robot_ws/install/distance_sensor_pkg:/opt/ros/humble:', 'SHELL': '/bin/bash', 'LC_NAME': 'hu_HU.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:fd3b2808-1a43-46ec-962b-1e42ac614663', 'TURTLEBO3_MODEL': 'waffle', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hu_HU.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hu_HU.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mostafa/ros2/sensor_ws/build/sensor_read', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mostafa/ros2/sensor_ws/build/sensor_read/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages:/home/mostafa/ros2/sensor_ws/build/sensor_read:/home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages:/home/mostafa/ros2/robot_ws/build/vl53l7cx_sensor:/home/mostafa/ros2/robot_ws/install/vl53l7cx_sensor/lib/python3.10/site-packages:/home/mostafa/ros2/robot_ws/build/my-test-package:/home/mostafa/ros2/robot_ws/install/my-test-package/lib/python3.10/site-packages:/home/mostafa/ros2/robot_ws/build/distance_sensor_pkg:/home/mostafa/ros2/robot_ws/install/distance_sensor_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'hu_HU.UTF-8', 'LC_PAPER': 'hu_HU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mostafa/ros2/sensor_ws/install/read_cpp:/home/mostafa/ros2/robot_ws/install/my_robot_bringup:/home/mostafa/ros2/robot_ws/install/my_robot_description:'}, 'shell': False}
+[0.901003] (-) TimerEvent: {}
+[1.001247] (-) TimerEvent: {}
+[1.101488] (-) TimerEvent: {}
+[1.201743] (-) TimerEvent: {}
+[1.214119] (sensor_read) StdoutLine: {'line': b'running develop\n'}
+[1.214543] (sensor_read) StderrLine: {'line': b'/home/mostafa/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[1.214663] (sensor_read) StderrLine: {'line': b'!!\n'}
+[1.214726] (sensor_read) StderrLine: {'line': b'\n'}
+[1.214783] (sensor_read) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.214839] (sensor_read) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[1.214893] (sensor_read) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.214949] (sensor_read) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.215004] (sensor_read) StderrLine: {'line': b'\n'}
+[1.215057] (sensor_read) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[1.215111] (sensor_read) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.215173] (sensor_read) StderrLine: {'line': b'\n'}
+[1.215226] (sensor_read) StderrLine: {'line': b'!!\n'}
+[1.215279] (sensor_read) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.301858] (-) TimerEvent: {}
+[1.402099] (-) TimerEvent: {}
+[1.479399] (sensor_read) StdoutLine: {'line': b'running egg_info\n'}
+[1.497657] (sensor_read) StdoutLine: {'line': b'writing sensor_read.egg-info/PKG-INFO\n'}
+[1.498037] (sensor_read) StdoutLine: {'line': b'writing dependency_links to sensor_read.egg-info/dependency_links.txt\n'}
+[1.498256] (sensor_read) StdoutLine: {'line': b'writing entry points to sensor_read.egg-info/entry_points.txt\n'}
+[1.498464] (sensor_read) StdoutLine: {'line': b'writing requirements to sensor_read.egg-info/requires.txt\n'}
+[1.498671] (sensor_read) StdoutLine: {'line': b'writing top-level names to sensor_read.egg-info/top_level.txt\n'}
+[1.502203] (-) TimerEvent: {}
+[1.536256] (sensor_read) StdoutLine: {'line': b"reading manifest file 'sensor_read.egg-info/SOURCES.txt'\n"}
+[1.537105] (sensor_read) StdoutLine: {'line': b"writing manifest file 'sensor_read.egg-info/SOURCES.txt'\n"}
+[1.595756] (sensor_read) StdoutLine: {'line': b'running build_ext\n'}
+[1.595992] (sensor_read) StdoutLine: {'line': b'Creating /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/python3.10/site-packages/sensor-read.egg-link (link to .)\n'}
+[1.596577] (sensor_read) StdoutLine: {'line': b'Installing FilterKal script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read\n'}
+[1.596806] (sensor_read) StdoutLine: {'line': b'Installing could_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read\n'}
+[1.597049] (sensor_read) StdoutLine: {'line': b'Installing filtered_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read\n'}
+[1.597155] (sensor_read) StdoutLine: {'line': b'Installing multi_points script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read\n'}
+[1.597279] (sensor_read) StdoutLine: {'line': b'Installing multi_pub script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read\n'}
+[1.597444] (sensor_read) StdoutLine: {'line': b'Installing publish_data script to /home/mostafa/ros2/sensor_ws/install/sensor_read/lib/sensor_read\n'}
+[1.597678] (sensor_read) StdoutLine: {'line': b'\n'}
+[1.597782] (sensor_read) StdoutLine: {'line': b'Installed /home/mostafa/ros2/sensor_ws/build/sensor_read\n'}
+[1.597847] (sensor_read) StdoutLine: {'line': b'running symlink_data\n'}
+[1.602298] (-) TimerEvent: {}
+[1.625785] (sensor_read) CommandEnded: {'returncode': 0}
+[1.636787] (sensor_read) JobEnded: {'identifier': 'sensor_read', 'rc': 0}
+[1.637541] (-) EventReactorShutdown: {}
